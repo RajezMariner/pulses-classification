@@ -99,20 +99,19 @@ app = Flask(__name__)
 
 
 #UPLOAD_FOLDER = "/home/rahul/Workspace/pulses-classification/static"
-
-
 @app.route("/", methods=["GET", "POST"])
 def upload_predict():
     if request.method == "POST":
+
         image_file = request.files["image"]
-        if image_file:
-            image_location = os.path.join(
-                UPLOAD_FOLDER,
-                image_file.filename
-            )
-            image_file.save(image_location)
-            pred = Prediction().predict(image_location)
-            print(pred)
+
+        if image_file:      
+            basepath = os.path.dirname(__file__)
+            img_path = os.path.join(basepath, 'static', image_file.filename)
+
+            image_file.save(img_path)
+            pred = Prediction().predict(img_path)
+            print(image_file.filename)
             return render_template("index.html", prediction=pred, image_loc=image_file.filename)
     return render_template("index.html", prediction=0, image_loc=None)
 

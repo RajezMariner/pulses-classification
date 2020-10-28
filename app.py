@@ -20,11 +20,11 @@ from flask import Flask, request, render_template, send_from_directory, make_res
 class Prediction:
     def __init__(self):
 
-        self.model_0 = self.load_model("/home/rahul/Workspace/pulses-classification/model/224_b0_0.pt")
-        self.model_1 = self.load_model("/home/rahul/Workspace/pulses-classification/model/224_b0_1.pt")
-        self.model_2 = self.load_model("/home/rahul/Workspace/pulses-classification/model/224_b0_2.pt")
-        self.model_3 = self.load_model("/home/rahul/Workspace/pulses-classification/model/224_b0_3.pt")
-        self.model_4 = self.load_model("/home/rahul/Workspace/pulses-classification/model/224_b0_4.pt")
+        self.model_0 = self.load_model("model/224_b0_0.pt")
+        self.model_1 = self.load_model("model/224_b0_1.pt")
+        self.model_2 = self.load_model("model/224_b0_2.pt")
+        self.model_3 = self.load_model("model/224_b0_3.pt")
+        self.model_4 = self.load_model("model/224_b0_4.pt")
         
         print("Model Loaded")
 

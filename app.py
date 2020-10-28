@@ -11,7 +11,7 @@ import albumentations as A
 from albumentations.pytorch import ToTensorV2
 
 from efficient_net import EfficientNet
-pip freeze > requirements.txt
+
 from torch.utils.data import Dataset
 from torch.utils.data.sampler import SequentialSampler
 
@@ -98,7 +98,7 @@ class Prediction:
 app = Flask(__name__)
 
 
-UPLOAD_FOLDER = "/home/rahul/Workspace/Maa ji for Bachelor/functionalities/Pulse Classification/static"
+UPLOAD_FOLDER = "/home/rahul/Workspace/pulses-classification/static"
 
 
 @app.route("/", methods=["GET", "POST"])

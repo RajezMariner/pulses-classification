@@ -74,7 +74,7 @@ class Prediction:
         test_loader = torch.utils.data.DataLoader(
                     test_dataset,
                     batch_size=1,
-                    num_workers=2,
+                    num_workers=1,
                     shuffle=False,
                     sampler=SequentialSampler(test_dataset),
                     pin_memory=False,

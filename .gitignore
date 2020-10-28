@@ -147,4 +147,4 @@ cython_debug/
 # Dataset
 /dataset/*/
 
-/model/*.pt
+#/model/*.pt

@@ -16,8 +16,8 @@ networkx==2.5
 numpy
 olefile==0.46
 opencv-python-headless==4.4.0.44
-Pillow @ file:///tmp/build/80754af9/pillow_1603822255246/work
-psycopg2 @ file:///tmp/build/80754af9/psycopg2_1594305108220/work
+Pillow
+psycopg2
 pyparsing==2.4.7
 python-dateutil==2.8.1
 PyWavelets==1.1.1
@@ -29,5 +29,5 @@ tifffile==2020.10.1
 torch==1.7.0
 torchaudio==0.7.0a0+ac17b64
 torchvision==0.8.1
-typing-extensions @ file:///tmp/build/80754af9/typing_extensions_1598376058250/work
+typing-extensions
 Werkzeug==1.0.1

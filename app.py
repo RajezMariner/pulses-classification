@@ -21,10 +21,10 @@ class Prediction:
     def __init__(self):
 
         self.model_0 = self.load_model("model/224_b0_0.pt")
-        self.model_1 = self.load_model("model/224_b0_1.pt")
-        self.model_2 = self.load_model("model/224_b0_2.pt")
-        self.model_3 = self.load_model("model/224_b0_3.pt")
-        self.model_4 = self.load_model("model/224_b0_4.pt")
+        #self.model_1 = self.load_model("model/224_b0_1.pt")
+        #self.model_2 = self.load_model("model/224_b0_2.pt")
+        #self.model_3 = self.load_model("model/224_b0_3.pt")
+        #self.model_4 = self.load_model("model/224_b0_4.pt")
         
         print("Model Loaded")
 
@@ -84,9 +84,9 @@ class Prediction:
         for _, x_test in enumerate(test_loader):
             images = x_test.to(torch.device('cpu'), dtype=torch.float32)
             
-            final_pred=(self.model_0(images) + self.model_1(images) + self.model_2(images) + 
+            #final_pred=(self.model_0(images) + self.model_1(images) + self.model_2(images) + 
                         self.model_3(images) + self.model_4(images)) / 5
-            
+            final_pred(self.model_0(images))
             y_pred = nn.functional.softmax(final_pred, dim=1).data.cpu().numpy().argmax()
 
 

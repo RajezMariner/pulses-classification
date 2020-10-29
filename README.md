@@ -40,9 +40,7 @@ Visit : https://pulses-classification.herokuapp.com/
 
 # Demo Video
 
-<video width="320" height="240" controls>
-  <source src=req_files/Demo(mobile).mp4 type="video/mp4">
-</video>
+![](req_files/Demo(Mobile).gif)
 
 # Inspiration
 Thanks to all of my friends and the comedy skits uploaded on youtube that decribes how difficult it is for them to recogninze the type of pulse there in front of them (I'm one of them too).  

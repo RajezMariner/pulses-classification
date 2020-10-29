@@ -86,7 +86,9 @@ class Prediction:
             
             #final_pred=(self.model_0(images) + self.model_1(images) + self.model_2(images) + 
                         #self.model_3(images) + self.model_4(images)) / 5
-            final_pred(self.model_0(images))
+            print("Prediction started")
+            final_pred=(self.model_0(images))
+            print("Prediction ended")
             y_pred = nn.functional.softmax(final_pred, dim=1).data.cpu().numpy().argmax()
 
 

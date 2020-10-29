@@ -1,0 +1,16 @@
+English Name,Hindi Name
+yellow lentils,Moong dal
+Red lentils,Lal masoor dal
+Split & skinned black gram,Urad dal
+Split green gram,Moong dal chilka
+Split Black gram,Urad dal chilka
+Green Gram,Sabut moong
+Black Gram,Sabut urad/maa ki dal
+Moth/Turkish/dew bean,Moth/mat/matki dal
+Chickpeas/Garbanzo beans,Kabuli chana/Chole
+Green Chickpeas,Hare Chane
+Red Kidney Beans,Rajma
+Pinto Beans,Rajma but light brown in color
+Adzuki beans,Chota rajma
+White Kidney Beans,Safed Rajma
+a

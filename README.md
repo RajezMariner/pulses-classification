@@ -30,7 +30,7 @@ Currently supports 14 commonly used Pulses in Indian households, namely :
 * White Kidney Beans
 * Yellow Lentils
 
-Refer to [pulse_list.txt]("req_files/pulses_list.txt") to get Hindi/Regional Conversion of given Pulses names
+Refer to [pulse_list.txt](req_files/pulses_list.txt) to get Hindi/Regional Conversion of given Pulses names
 
 To use this app, [Click here](https://pulses-classification.herokuapp.com/) 
 
@@ -41,7 +41,7 @@ Visit : https://pulses-classification.herokuapp.com/
 # Demo Video
 
 <video width="320" height="240" controls>
-  <source src="req_files/Demo(mobile).mp4" type="video/mp4">
+  <source src=req_files/Demo(mobile).mp4 type="video/mp4">
 </video>
 
 # Inspiration

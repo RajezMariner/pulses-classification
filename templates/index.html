@@ -17,7 +17,6 @@
     <div class="bg"></div>
     <form class="form-upload" method=post enctype=multipart/form-data>
       <h1>Pulses Classification</h1>
-      <h5>Test UI</h5>
       <input type="file" id="image" name="image" class="form-control" required autofocus>
       <button class="btn btn-lg btn-primary btn-block" type="submit">Predict</button>
       <br>
@@ -25,7 +24,6 @@
         <img class="mb-4" src="{{ url_for('static',filename=image_loc) }}" alt="" width="256" height="256">
         <h3 class="h3 mb-3 font-weight-normal">Prediction: {{prediction}}</h3>
       {%endif%}
-      <h3>Work under Development</h3>
     </form>
   </body>
 </html>
